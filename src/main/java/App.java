@@ -12,6 +12,6 @@ public class App {
         String html = driver.getPageSource();
         Document jsoup = Jsoup.parse(html);
         System.out.println(jsoup);
-        driver.quit();
+//        driver.quit();
     }
 }
